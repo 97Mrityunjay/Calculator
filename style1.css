@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(to right, #00d2ff 0%, #3a47d5 100%);
+}
+.container{
+    background: rgba(0,0,255,0.2);
+    box-shadow: 0 0 5px 0px #1f1f1f;
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    
+}
+.heading{
+    text-align: center;
+
+}
+.calculator{
+    background-color:rgba(0, 0, 255, 0.9);
+    height: 420px;
+    width: 250px;
+    box-shadow: 0 0 0.9em 0.1em #fff;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+}
+.output{
+    /* background: #000; */
+    height: 135px;
+    width: 100%;
+ 
+}
+.output #display{
+    border-radius: 10px;
+    border: none;
+    background-color: #3a47d5;
+    height: 100px;
+    /* height: 70px; */
+    width: 72%;
+    /* width: 200px; */
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    margin-left: 5px;
+    
+}
+.btn{
+    /* margin: 40px 115px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* width: 190px; */
+    width: 240px;
+    /* background: black; */
+    height: 220px;
+    flex-wrap: wrap;
+}
+.btn button{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn #equalto{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn #plus{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn #minus{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn #multiply{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.btn #division{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#percentage{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#delete{
+  padding-left: 40px;
+  padding-right: 40px;
+}

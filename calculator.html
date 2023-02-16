@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="container">
+      <h1 class="heading">Calculator</h1>
+      <div class="calculator">
+         <div class="output">
+          <input type="text" name="" id="display" placeholder="0" /><br>
+         </div>
+         <div class="btn">
+          <button id="clear">c</button>
+          <button id="percentage" onclick="calculate('%')">%</button>
+          <button id="delete">Del</button>
+          <button id="one" onclick="calculate(1)" >1</button>
+          <button id="two" onclick="calculate(2)">2</button>
+          <button id="three" onclick="calculate(3)">3</button>
+          <button id="plus"onclick="calculate('+')">+</button>
+          <button id="four" onclick="calculate(4)">4</button>
+          <button id="five" onclick="calculate(5)">5</button>
+          <button id="six" onclick="calculate(6)">6</button>
+          <button id="minus" onclick="calculate('-')">-</button>
+          <button id="seven" onclick="calculate(7)">7</button>
+          <button id="eight" onclick="calculate(8)">8</button>
+          <button id="nine" onclick="calculate(9)">9</button>
+          <button id="multiply" onclick="calculate('*')">*</button>
+          <button id="zero" onclick="calculate(0)">0</button>
+          <button id="decimal">.</button>
+          <button id="division" onclick="calculate('/')">/</button>
+          <button id="equalto" onclick="result()">=</button>
+         </div>
+      </div>
+    </div>
+    <script src="./script1.js"></script>
+</body>
+</html>
