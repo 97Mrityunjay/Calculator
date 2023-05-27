@@ -33,7 +33,7 @@ var result= ()=>{
     }
 };
 document.getElementById("delete").addEventListener("click",()=>{
-    display.value="";
+    display.value=display.value.substr(0,display.value.length-1);
 });
 
 
